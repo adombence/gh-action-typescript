@@ -1,0 +1,16 @@
+name: Typescript Action
+author: Bence Ádom
+description: 'A Typescript Action template for Github Actions'
+branding:
+  icon: 'code'
+  color: 'black'
+
+inputs:
+  github-token:
+    description: 'The Github token used to create an authenticated client'
+    default: '${{ github.token }}'
+    required: false
+
+runs:
+  using: "node20"
+  main: "dist/index.js"
