@@ -19,7 +19,7 @@
     "@vercel/ncc": "^0.38.1"
   },
   "devDependencies": {
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.8.7",
     "@typescript-eslint/eslint-plugin": "^8.1.0",
     "@typescript-eslint/parser": "^8.5.0",
     "eslint": "^8.57.0",
